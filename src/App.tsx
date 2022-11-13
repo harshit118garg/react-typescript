@@ -3,6 +3,7 @@ import "./styles/App.scss";
 import { AiTwotoneBook } from "react-icons/ai";
 import COunter from "./components/COunter";
 import Greeting from "./components/Greeting";
+import Login from "./forms/Login";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             </div>
           </div>
           <hr />
-          <div className="row">
+          {/* <div className="row">
             <div className="col">
               <COunter />
             </div>
@@ -33,6 +34,11 @@ function App() {
           <div className="row">
             <div className="col">
               <Greeting />
+            </div>
+          </div> */}
+          <div className="row">
+            <div className="col">
+              <Login />
             </div>
           </div>
         </div>
