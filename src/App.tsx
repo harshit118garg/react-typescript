@@ -1,15 +1,13 @@
 import React from "react";
 import "./styles/App.scss";
 import { AiTwotoneBook } from "react-icons/ai";
-import Customer from "./components/Customer";
-import Saler from "./components/Saler";
-import Employee from "./components/Employee";
-import Manager from "./components/Manager";
+import COunter from "./components/COunter";
+import Greeting from "./components/Greeting";
 
 function App() {
   return (
     <div className="App">
-      <div className="container mt-3">
+      <div className="container-fluid mt-3 p-3">
         <div className="grid">
           <div className="row">
             <div className="col">
@@ -28,25 +26,13 @@ function App() {
           <hr />
           <div className="row">
             <div className="col">
-              <Customer name={"Harshit"} age={22} title={"FE Developer"} />
+              <COunter />
             </div>
           </div>
           <hr />
           <div className="row">
             <div className="col">
-              <Saler name={"Pawan"} age={51} title={"Business Man"} />
-            </div>
-          </div>
-          <hr />
-          <div className="row">
-            <div className="col">
-              <Employee />
-            </div>
-          </div>
-          <hr />
-          <div className="row">
-            <div className="col">
-              <Manager />
+              <Greeting />
             </div>
           </div>
         </div>
