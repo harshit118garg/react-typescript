@@ -4,6 +4,8 @@ import { AiTwotoneBook } from "react-icons/ai";
 import COunter from "./components/COunter";
 import Greeting from "./components/Greeting";
 import Login from "./forms/Login";
+import AuthUser from "./ConditionalRendering/AuthUser";
+import UserList from "./ListRendering/UserList";
 
 function App() {
   return (
@@ -36,9 +38,19 @@ function App() {
               <Greeting />
             </div>
           </div> */}
-          <div className="row">
+          {/* <div className="row">
             <div className="col">
               <Login />
+            </div>
+          </div> */}
+          {/* <div className="row">
+            <div className="col">
+              <AuthUser />
+            </div>
+          </div> */}
+          <div className="row">
+            <div className="col">
+              <UserList />
             </div>
           </div>
         </div>
