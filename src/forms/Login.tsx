@@ -85,7 +85,7 @@ const Login: React.FC<LoginProps> = () => {
               </div>
             </div>
             {state?.show && (
-              <div className="col-md-6">
+              <div className="col-md-6 mt-2">
                 <ul className="list-group">
                   <li className="list-group-item">{state?.user?.username}</li>
                   <li className="list-group-item">{state?.user?.password}</li>
